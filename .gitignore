@@ -1,0 +1,82 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+Thumbs.db
+.DS_Store
+*.log
+
+# Large Data Files (keep tracked versions in git, ignore generated ones)
+*.csv
+dataset_*.csv
+dataset_final.csv
+dataset_noisy.csv
+dataset_ideal_final.csv
+dataset_realistic*.csv
+dataset_large*.csv
+real_time_dataset.csv
+
+# Model & Scaler Files (generated during training)
+*.keras
+*.h5
+*.pkl
+*.joblib
+sensor_fusion_model*.keras
+scaler.pkl
+
+# SUMO Related
+*.sumocfg.backup
+sumo_output.txt
+sumo_error.txt
+
+# Visualization Output
+figures/
+*.png
+*.jpg
+*.pdf
+
+# Testing & Temp Files
+.pytest_cache/
+.coverage
+htmlcov/
+*.tmp
+temp/
+
+# Environment Variables
+.env.local
+.env.*.local
+
+# Streamlit Cache
+.streamlit/
+
+# OS-specific
+.vscode/settings.json
+.vscode/launch.json
