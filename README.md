@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sensor Fusion for Collision Risk Prediction
 
 A neural network-based system for robust collision risk assessment using multi-sensor fusion in autonomous vehicles. This project demonstrates how to train models on realistic, noisy sensor data to predict collision risk while handling sensor failures and conflicting readings.
@@ -542,3 +543,6 @@ For questions, issues, or improvements, please open an issue or submit a pull re
 
 **Last Updated**: May 2026  
 **Maintained By**: SUMO Project Team
+=======
+# sensor-fusion-neural-network
+>>>>>>> d12f191e6b7ca35160a3373ba8f3cfc0f4ead495
