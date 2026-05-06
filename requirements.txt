@@ -1,0 +1,21 @@
+# SUMO Sensor Fusion Project Dependencies
+# Python 3.10+
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Machine Learning & Neural Networks
+scikit-learn>=1.2.0
+tensorflow>=2.12.0
+keras>=2.12.0
+
+# Model Serialization
+joblib>=1.2.0
+
+# Visualization & Dashboard
+matplotlib>=3.6.0
+streamlit>=1.20.0
+
+# Optional: For Jupyter notebooks
+jupyter>=1.0.0
